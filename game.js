@@ -130,7 +130,7 @@ function Q1() {
     run();
 
     function run() {
-        timerNumber = 60;
+        timerNumber = 30;
         intervalId = setInterval(decrement, 1000);
         console.log(intervalId);
     }
@@ -200,7 +200,7 @@ function Q2() {
     })
 
     function run() {
-        timerNumber = 60;
+        timerNumber = 30;
         intervalId = setInterval(decrement, 1000);
         console.log(intervalId);
     }
@@ -257,7 +257,7 @@ function Q3() {
     })
 
     function run() {
-        timerNumber = 60;
+        timerNumber = 30;
         intervalId = setInterval(decrement, 1000);
         console.log(intervalId);
     }
@@ -309,7 +309,7 @@ function Q4() {
     })
 
     function run() {
-        timerNumber = 60;
+        timerNumber = 30;
         intervalId = setInterval(decrement, 1000);
         console.log(intervalId);
     }
@@ -361,7 +361,7 @@ function Q5() {
     })
 
     function run() {
-        timerNumber = 60;
+        timerNumber = 30;
         intervalId = setInterval(decrement, 1000);
         console.log(intervalId);
     }
@@ -413,7 +413,7 @@ function Q6() {
     })
 
     function run() {
-        timerNumber = 60;
+        timerNumber = 30;
         intervalId = setInterval(decrement, 1000);
         console.log(intervalId);
     }
@@ -465,7 +465,7 @@ function Q7() {
     })
 
     function run() {
-        timerNumber = 60;
+        timerNumber = 30;
         intervalId = setInterval(decrement, 1000);
         console.log(intervalId);
     }
@@ -517,7 +517,7 @@ function Q8() {
     })
 
     function run() {
-        timerNumber = 60;
+        timerNumber = 30;
         intervalId = setInterval(decrement, 1000);
         console.log(intervalId);
     }
@@ -569,7 +569,7 @@ function Q9() {
     })
 
     function run() {
-        timerNumber = 60;
+        timerNumber = 30;
         intervalId = setInterval(decrement, 1000);
         console.log(intervalId);
     }
@@ -621,7 +621,7 @@ function Q10() {
     })
 
     function run() {
-        timerNumber = 60;
+        timerNumber = 30;
         intervalId = setInterval(decrement, 1000);
         console.log(intervalId);
     }
@@ -681,7 +681,7 @@ function results() {
 
 function Q1_2() {
 
-    resultsUnanswered = 0;
+    
     var newquestion = questionGenerator(triviaQuestions.question1);
     $('#contentArea').html('');
     $('#contentArea').append(newquestion);
@@ -705,7 +705,7 @@ function Q1_2() {
     })
 
     function run() {
-        timerNumber = 60;
+        timerNumber = 30;
         intervalId = setInterval(decrement, 1000);
         console.log(intervalId);
     }
