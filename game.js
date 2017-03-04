@@ -655,9 +655,9 @@ function results() {
 
     stop();
     $('#contentArea').html('');
-    var resultsUnanswered = '<h4 id="unansweredResult">Number of unanswered questions: ' + unansweredCounter + '</h4>';
-    var resultsCorrect = '<h5 id="correctResult">Number of correct answers: ' + correctAnswerCounter + '</h5>';
-    var resultsIncorrect = '<h6 id="incorrectResult">Number of incorrect answers: ' + incorrectAnswerCounter + '</h6>';
+    var resultsUnanswered = '<h4 class="results"">Number of unanswered questions: ' + unansweredCounter + '</h4>';
+    var resultsCorrect = '<h5 class="results">Number of correct answers: ' + correctAnswerCounter + '</h5>';
+    var resultsIncorrect = '<h6 class="results">Number of incorrect answers: ' + incorrectAnswerCounter + '</h6>';
     $("#contentArea").append(resultsCorrect);
     $("#contentArea").append(resultsIncorrect);
     $("#contentArea").append(resultsUnanswered);
