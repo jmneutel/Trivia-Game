@@ -742,6 +742,8 @@ function questionGenerator(questionObj) {
     var questionContainer = $("<div id='q-container'>")
         // Place content for Question One below//
     var questionDiv = $("<div id='question'></div>");
+    // var questionArray = [];
+    // questionContainer.append(questionArray);
     questionDiv.html("<h4>" + question + "</h4>");
     questionContainer.append(questionDiv);
     for (var i = 1; i < choices.length; i++) {
