@@ -21,3 +21,4 @@
 - Javascript
 - HTML
 - CSS
+- Bootstrap to make web app fully responsive
