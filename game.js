@@ -37,8 +37,8 @@ var triviaQuestions = [
     {
 
         question: 'The 1994 Nuggets were the first 8 seed to ever upset a 1 seed in the playoffs, what team did they upset?',
-        choices: ['Thunder', 'Lakers', 'Warriors', 'Spurs'],
-        answer: "Thunder"
+        choices: ['Super Sonics', 'Lakers', 'Warriors', 'Spurs'],
+        answer: "Super Sonics"
 
 
     },
