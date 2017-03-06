@@ -123,7 +123,7 @@ function startGame() {
 startGame();
 
 function run() {
-    timerNumber = 30;
+    timerNumber = 15;
     intervalId = setInterval(decrement, 1000);
     console.log(intervalId);
 }
@@ -259,7 +259,7 @@ function incorrectScreen(quesObj) {
     stop();
     $('#show_timer').html(" ");
     $('#contentArea').html("<p class='screens'>That answer is incorrect! The correct answer is: " + quesObj.answer + "</p>");
-    setTimeout(question, 5000);
+    setTimeout(question, 3000);
 
 }
 
